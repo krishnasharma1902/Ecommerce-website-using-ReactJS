@@ -39,12 +39,16 @@ align-items: center;
 
 const Language = styled.span`
     font-size: 14px;
+    font-weight:bold;
+
     cursor: pointer;
 
 `;
 
 const SearchContainer = styled.div`
     align-items: center;
+    
+
     display : flex;
     border: 0.5px solid lightgray;
     margin-left : 25px;
@@ -65,6 +69,7 @@ font-weight : 5000;
 
 const MenuItem = styled.div`
  font-size: 14px;
+ font-weight:bold;
  cursor : pointer;
  margin-left : 25px;
 `
